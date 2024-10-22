@@ -7,3 +7,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
