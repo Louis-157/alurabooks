@@ -1,11 +1,26 @@
+
 .cabeçalho__menu-hamburguer {
-        background-color: var(--branco);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
 .container {
-        display: flex;
-        align-items: center;
-        padding: 1em;
-    }
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
